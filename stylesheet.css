@@ -1,6 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
+}
+
+li{
+    list-style:none;
 }
 
 a {
@@ -8,7 +16,7 @@ a {
 }
 
 .container{
-    width: 1170px;
+    width: 100%;
     padding:0 15px;
     margin: 0 auto;
 }
@@ -173,30 +181,20 @@ header{
 
 footer{
     background-color: maroon;
-    height: 120px;
+    height: 180px;
     padding: 40px;
+    color:seagreen;
 }
 
 .footer-logo{
-    width: 300px;
-    color:seagreen;
     font-size: 30px;
+    float: left;
 }
-
-footer p{
-    color: forestgreen;
-    font-size: 12px;
-}
-
-
-
-
-
 
 .footer-list{
     float: right;
 }
 
 .footer-list li{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
